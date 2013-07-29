@@ -1,0 +1,11 @@
+reload
+gen-idea
+sbt-idea
+gen-idea
+reload
+compile
+exit
+scala-version
+dir
+gen-idea
+exit

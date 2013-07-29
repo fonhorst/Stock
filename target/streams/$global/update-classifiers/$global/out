@@ -1,0 +1,1110 @@
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] :: resolving dependencies :: stock#stock$sources_javadoc_2.10;0.0.1
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [compile]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile
+[debug] 	using sbt-chain to resolve org.scala-lang#scala-library;2.10.2
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.2 {compile=[default(compile)]}
+[debug] sbt-chain: no namespace defined: using system
+[debug] No entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.2.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.scala-lang#scala-library;2.10.2 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.2.xml
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2
+[debug] sbt-chain: no latest strategy defined: using default
+[debug] local: no namespace defined: using system
+[debug] Entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.2.xml
+[debug] 	found ivy file in cache for org.scala-lang#scala-library;2.10.2 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.2.xml
+[debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.2
+[debug] 	checking org.scala-lang#scala-library;2.10.2 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.scala-lang#scala-library;2.10.2 from sbt-chain
+[debug] 	found org.scala-lang#scala-library;2.10.2 in sbt-chain
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile
+[debug] 	using sbt-chain to resolve com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.2.0 {compile=[default(compile)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.2.0.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for com.typesafe.akka#akka-actor_2.10;2.2.0 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.2.0.xml
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.2.0.xml
+[debug] 	found ivy file in cache for com.typesafe.akka#akka-actor_2.10;2.2.0 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.2.0.xml
+[debug] 	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] 	checking com.typesafe.akka#akka-actor_2.10;2.2.0 from sbt-chain against [none]
+[debug] 	module revision kept as first found: com.typesafe.akka#akka-actor_2.10;2.2.0 from sbt-chain
+[debug] 	found com.typesafe.akka#akka-actor_2.10;2.2.0 in sbt-chain
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile
+[debug] 	using sbt-chain to resolve com.typesafe#config;1.0.2
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe#config;1.0.2 {compile=[default(compile)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\com.typesafe\config\ivy-1.0.2.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for com.typesafe#config;1.0.2 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\com.typesafe\config\ivy-1.0.2.xml
+[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.0.2
+[debug] Entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\com.typesafe\config\ivy-1.0.2.xml
+[debug] 	found ivy file in cache for com.typesafe#config;1.0.2 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\com.typesafe\config\ivy-1.0.2.xml
+[debug] 	local: revision in cache: com.typesafe#config;1.0.2
+[debug] 	checking com.typesafe#config;1.0.2 from sbt-chain against [none]
+[debug] 	module revision kept as first found: com.typesafe#config;1.0.2 from sbt-chain
+[debug] 	found com.typesafe#config;1.0.2 in sbt-chain
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile
+[debug] 	using sbt-chain to resolve com.typesafe.akka#akka-testkit_2.10;2.2.0
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.10;2.2.0 {compile=[default(compile)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\com.typesafe.akka\akka-testkit_2.10\ivy-2.2.0.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for com.typesafe.akka#akka-testkit_2.10;2.2.0 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\com.typesafe.akka\akka-testkit_2.10\ivy-2.2.0.xml
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.10;2.2.0
+[debug] Entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\com.typesafe.akka\akka-testkit_2.10\ivy-2.2.0.xml
+[debug] 	found ivy file in cache for com.typesafe.akka#akka-testkit_2.10;2.2.0 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\com.typesafe.akka\akka-testkit_2.10\ivy-2.2.0.xml
+[debug] 	local: revision in cache: com.typesafe.akka#akka-testkit_2.10;2.2.0
+[debug] 	checking com.typesafe.akka#akka-testkit_2.10;2.2.0 from sbt-chain against [none]
+[debug] 	module revision kept as first found: com.typesafe.akka#akka-testkit_2.10;2.2.0 from sbt-chain
+[debug] 	found com.typesafe.akka#akka-testkit_2.10;2.2.0 in sbt-chain
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [runtime]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=runtime
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [compile]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [test]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=test
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [runtime]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [compile]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test
+[debug] 	using sbt-chain to resolve org.scalatest#scalatest_2.10;1.9.1
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;1.9.1 {test=[default(compile)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-1.9.1.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.scalatest#scalatest_2.10;1.9.1 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-1.9.1.xml
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;1.9.1
+[debug] Entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-1.9.1.xml
+[debug] 	found ivy file in cache for org.scalatest#scalatest_2.10;1.9.1 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-1.9.1.xml
+[debug] 	local: revision in cache: org.scalatest#scalatest_2.10;1.9.1
+[debug] 	checking org.scalatest#scalatest_2.10;1.9.1 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.scalatest#scalatest_2.10;1.9.1 from sbt-chain
+[debug] 	found org.scalatest#scalatest_2.10;1.9.1 in sbt-chain
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test->runtime]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test->compile]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test->master]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test->default(compile)]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test
+[debug] 	using sbt-chain to resolve org.scala-lang#scala-actors;2.10.0
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-actors;2.10.0 {test=[default(compile)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.scala-lang#scala-actors;2.10.0 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-actors;2.10.0
+[debug] Entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] 	found ivy file in cache for org.scala-lang#scala-actors;2.10.0 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] 	local: revision in cache: org.scala-lang#scala-actors;2.10.0
+[debug] 	checking org.scala-lang#scala-actors;2.10.0 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.scala-lang#scala-actors;2.10.0 from sbt-chain
+[debug] 	found org.scala-lang#scala-actors;2.10.0 in sbt-chain
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test->runtime]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test->compile]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test->master]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test->default(compile)]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test
+[debug] 	using sbt-chain to resolve org.scala-lang#scala-reflect;2.10.0
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {test=[default(compile)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.scala-lang#scala-reflect;2.10.0 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0
+[debug] Entry is found in the ModuleDescriptorCache : C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+[debug] 	found ivy file in cache for org.scala-lang#scala-reflect;2.10.0 (resolved by sbt-chain): C:\dir\CustomUserHome\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+[debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.0
+[debug] 	checking org.scala-lang#scala-reflect;2.10.0 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.scala-lang#scala-reflect;2.10.0 from sbt-chain
+[debug] 	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test->runtime]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test->compile]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test->master]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [provided]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=provided
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [optional]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=optional
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [compile-internal]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=compile-internal
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [compile]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [optional]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [provided]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile-internal->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile-internal->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile-internal->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile-internal->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile-internal->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile-internal->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile-internal->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile-internal->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile-internal->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile-internal->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile-internal->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile-internal->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile-internal->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile-internal->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile-internal->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile-internal->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [runtime-internal]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=runtime-internal
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [runtime]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [compile]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [optional]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime-internal->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime-internal->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime-internal->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime-internal->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime-internal->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime-internal->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime-internal->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime-internal->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime-internal->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime-internal->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime-internal->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime-internal->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime-internal->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime-internal->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime-internal->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime-internal->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [test-internal]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=test-internal
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [test]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [runtime]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [compile]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [compile->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [runtime->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [runtime->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [runtime->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test->runtime]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test->compile]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test->master]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test->default(compile)]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test->runtime]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test->compile]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test->master]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test->default(compile)]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test->runtime]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test->compile]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test->master]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [optional]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [provided]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test-internal->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test-internal->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test-internal->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-library;2.10.2 [test-internal->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test-internal->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test-internal->runtime]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test-internal->compile]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [test-internal->master]
+[debug] loadData of com.typesafe.akka#akka-actor_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test-internal->default(compile)]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test-internal->runtime]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test-internal->compile]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe#config;1.0.2 [test-internal->master]
+[debug] loadData of com.typesafe#config;1.0.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test-internal->default(compile)]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test-internal->runtime]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test-internal->compile]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->com.typesafe.akka#akka-testkit_2.10;2.2.0 [test-internal->master]
+[debug] loadData of com.typesafe.akka#akka-testkit_2.10;2.2.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test-internal->default(compile)]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test-internal->runtime]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test-internal->compile]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scalatest#scalatest_2.10;1.9.1 [test-internal->master]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test-internal->default(compile)]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test-internal->runtime]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test-internal->compile]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-actors;2.10.0 [test-internal->master]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test-internal->default(compile)]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test-internal->runtime]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test-internal->compile]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies stock#stock$sources_javadoc_2.10;0.0.1->org.scala-lang#scala-reflect;2.10.0 [test-internal->master]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [plugin]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=plugin
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [sources]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=sources
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [docs]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=docs
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for stock#stock$sources_javadoc_2.10;0.0.1 [pom]
+[debug] loadData of stock#stock$sources_javadoc_2.10;0.0.1 of rootConf=pom
+[debug] Nbr of module to sort : 7
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-actor_2.10;2.2.0 / Number of dependencies = 2
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe#config;1.0.2 / Number of dependencies = 3
+[debug] Sort done for : com.typesafe#config;1.0.2
+[debug] Sort done for : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : com.typesafe#config;1.0.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-testkit_2.10;2.2.0 / Number of dependencies = 4
+[debug] Module descriptor is processed : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15
+[debug] Non matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-actors depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2
+[debug] Sort done for : org.scala-lang#scala-actors;2.10.0
+[debug] Sort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2
+[debug] Sort done for : org.scala-lang#scala-reflect;2.10.0
+[debug] Sort done for : org.scalatest#scalatest_2.10;1.9.1
+[debug] Sort done for : com.typesafe.akka#akka-testkit_2.10;2.2.0
+[debug] Module descriptor is processed : org.scalatest#scalatest_2.10;1.9.1
+[debug] Module descriptor is processed : org.scala-lang#scala-actors;2.10.0
+[debug] Module descriptor is processed : org.scala-lang#scala-reflect;2.10.0
+[debug] 	resolved ivy file produced in C:\dir\CustomUserHome\.ivy2\cache\resolved-stock-stock$sources_javadoc_2.10-0.0.1.xml
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.0!akka-actor_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.0!akka-actor_2.10.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(doc)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.10;2.2.0!akka-testkit_2.10.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.10;2.2.0!akka-testkit_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(doc)
+[debug] :: resolution report :: resolve 225ms :: artifacts dl 36ms
+[debug] Nbr of module to sort : 4
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-actor_2.10;2.2.0 / Number of dependencies = 2
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe#config;1.0.2 / Number of dependencies = 3
+[debug] Sort done for : com.typesafe#config;1.0.2
+[debug] Sort done for : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : com.typesafe#config;1.0.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-testkit_2.10;2.2.0 / Number of dependencies = 4
+[debug] Module descriptor is processed : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort done for : com.typesafe.akka#akka-testkit_2.10;2.2.0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 compile produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-compile.xml
+[debug] Nbr of module to sort : 4
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-actor_2.10;2.2.0 / Number of dependencies = 2
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe#config;1.0.2 / Number of dependencies = 3
+[debug] Sort done for : com.typesafe#config;1.0.2
+[debug] Sort done for : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : com.typesafe#config;1.0.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-testkit_2.10;2.2.0 / Number of dependencies = 4
+[debug] Module descriptor is processed : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort done for : com.typesafe.akka#akka-testkit_2.10;2.2.0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 runtime produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-runtime.xml
+[debug] Nbr of module to sort : 7
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-actor_2.10;2.2.0 / Number of dependencies = 2
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe#config;1.0.2 / Number of dependencies = 3
+[debug] Sort done for : com.typesafe#config;1.0.2
+[debug] Sort done for : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : com.typesafe#config;1.0.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-testkit_2.10;2.2.0 / Number of dependencies = 4
+[debug] Module descriptor is processed : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15
+[debug] Non matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-actors depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2
+[debug] Sort done for : org.scala-lang#scala-actors;2.10.0
+[debug] Sort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2
+[debug] Sort done for : org.scala-lang#scala-reflect;2.10.0
+[debug] Sort done for : org.scalatest#scalatest_2.10;1.9.1
+[debug] Sort done for : com.typesafe.akka#akka-testkit_2.10;2.2.0
+[debug] Module descriptor is processed : org.scalatest#scalatest_2.10;1.9.1
+[debug] Module descriptor is processed : org.scala-lang#scala-actors;2.10.0
+[debug] Module descriptor is processed : org.scala-lang#scala-reflect;2.10.0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 test produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-test.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 provided produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-provided.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 optional produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-optional.xml
+[debug] Nbr of module to sort : 4
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-actor_2.10;2.2.0 / Number of dependencies = 2
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe#config;1.0.2 / Number of dependencies = 3
+[debug] Sort done for : com.typesafe#config;1.0.2
+[debug] Sort done for : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : com.typesafe#config;1.0.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-testkit_2.10;2.2.0 / Number of dependencies = 4
+[debug] Module descriptor is processed : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort done for : com.typesafe.akka#akka-testkit_2.10;2.2.0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 compile-internal produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-compile-internal.xml
+[debug] Nbr of module to sort : 4
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-actor_2.10;2.2.0 / Number of dependencies = 2
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe#config;1.0.2 / Number of dependencies = 3
+[debug] Sort done for : com.typesafe#config;1.0.2
+[debug] Sort done for : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : com.typesafe#config;1.0.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-testkit_2.10;2.2.0 / Number of dependencies = 4
+[debug] Module descriptor is processed : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort done for : com.typesafe.akka#akka-testkit_2.10;2.2.0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 runtime-internal produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-runtime-internal.xml
+[debug] Nbr of module to sort : 7
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-actor_2.10;2.2.0 / Number of dependencies = 2
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : com.typesafe#config;1.0.2 / Number of dependencies = 3
+[debug] Sort done for : com.typesafe#config;1.0.2
+[debug] Sort done for : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : com.typesafe#config;1.0.2
+[debug] Sort dependencies of : com.typesafe.akka#akka-testkit_2.10;2.2.0 / Number of dependencies = 4
+[debug] Module descriptor is processed : com.typesafe.akka#akka-actor_2.10;2.2.0
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15
+[debug] Non matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2
+[debug] Sort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-actors depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2
+[debug] Sort done for : org.scala-lang#scala-actors;2.10.0
+[debug] Sort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.2
+[debug] Sort done for : org.scala-lang#scala-reflect;2.10.0
+[debug] Sort done for : org.scalatest#scalatest_2.10;1.9.1
+[debug] Sort done for : com.typesafe.akka#akka-testkit_2.10;2.2.0
+[debug] Module descriptor is processed : org.scalatest#scalatest_2.10;1.9.1
+[debug] Module descriptor is processed : org.scala-lang#scala-actors;2.10.0
+[debug] Module descriptor is processed : org.scala-lang#scala-reflect;2.10.0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 test-internal produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-test-internal.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 plugin produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-plugin.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 sources produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-sources.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 docs produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-docs.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for stock#stock$sources_javadoc_2.10;0.0.1 pom produced in C:\dir\CustomUserHome\.ivy2\cache\stock-stock$sources_javadoc_2.10-pom.xml
+[debug] 	resolve done (225ms resolve - 36ms download)
