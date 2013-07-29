@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75c534dd-3776-494a-935f-abb8d84e6e20" name="Default" comment="" />
+    <list default="true" id="75c534dd-3776-494a-935f-abb8d84e6e20" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Stock.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/SBT" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1374848042813" ignored="false" />
@@ -11,6 +15,8 @@
     <file path="/a.dummy" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375043191331" ignored="false" />
     <file path="/fragment.java" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375100962856" ignored="false" />
     <file path="/CoupleActorsExampleTest.scala" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375108583404" ignored="false" />
+    <file path="/Dummy.txt" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375113745985" ignored="false" />
+    <file path="/README" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375114120886" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,20 +147,25 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/examples/CoupleActorsExample.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="191" column="31" selection-start="5638" selection-end="5638" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2867#3908#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoupleActorsExampleTest.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CoupleActorsExampleTest.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/examples/CoupleActorsExampleTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="25" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-0.2037037">
-              <folding>
-                <element signature="e#18#77#0" expanded="true" />
-              </folding>
+            <state line="63" column="34" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -195,35 +206,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar!/com/typesafe/config/impl/ConfigImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="34" selection-start="3551" selection-end="3551" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#6300#6321#0" expanded="false" />
-                <element signature="e#6720#6741#0" expanded="false" />
-                <element signature="e#10042#10071#0" expanded="false" />
-                <element signature="e#11104#11125#0" expanded="false" />
-                <element signature="e#13843#13872#0" expanded="false" />
-                <element signature="e#15104#15546#0" expanded="false" />
-                <element signature="e#15535#15536#0" expanded="false" />
-                <element signature="e#15760#15777#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Parseable.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar!/com/typesafe/config/impl/Parseable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="517" column="22" selection-start="17498" selection-end="17498" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1682#1705#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -253,6 +240,15 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -264,6 +260,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/examples/application.conf" />
         <option value="$PROJECT_DIR$/src/test/scala/examples/CoupleActorsExampleTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/examples/CoupleActorsExample.scala" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -273,11 +270,11 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="false" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
@@ -299,6 +296,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -332,105 +330,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,12 +350,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -511,19 +416,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -549,6 +441,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -614,9 +519,9 @@
       <method />
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.HelloWorld" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CoupleActorsExample" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.CoupleActorsExampleTest" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.CoupleActorsExampleTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HelloWorld" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CoupleActorsExample" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -668,16 +573,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3424191" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39182281" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6780239" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25681818" sideWeight="0.9863714" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25681818" sideWeight="0.9863714" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39182281" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -747,25 +652,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.0-sources.jar!/akka/pattern/AskSupport.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="6" selection-start="5110" selection-end="5110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.0-sources.jar!/akka/actor/ActorSystem.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="31" selection-start="4088" selection-end="4088" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="92" column="31" selection-start="4088" selection-end="4088" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar!/com/typesafe/config/ConfigFactory.java">
@@ -777,36 +671,18 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar!/com/typesafe/config/ConfigParseOptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="52" column="0" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar!/com/typesafe/config/impl/SimpleIncluder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="44" selection-start="6426" selection-end="6426" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="173" column="44" selection-start="6426" selection-end="6426" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar!/com/typesafe/config/impl/ConfigImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="34" selection-start="3551" selection-end="3551" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6300#6321#0" expanded="false" />
-            <element signature="e#6720#6741#0" expanded="false" />
-            <element signature="e#10042#10071#0" expanded="false" />
-            <element signature="e#11104#11125#0" expanded="false" />
-            <element signature="e#13843#13872#0" expanded="false" />
-            <element signature="e#15104#15546#0" expanded="false" />
-            <element signature="e#15535#15536#0" expanded="false" />
-            <element signature="e#15760#15777#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -820,11 +696,7 @@
     <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar!/com/typesafe/config/impl/Parseable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="517" column="22" selection-start="17498" selection-end="17498" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1682#1705#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -866,18 +738,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/examples/CoupleActorsExample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="191" column="31" selection-start="5638" selection-end="5638" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2867#3908#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/examples/CoupleActorsExampleTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-0.2037037">
-          <folding>
-            <element signature="e#18#77#0" expanded="true" />
-          </folding>
+        <state line="63" column="34" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
