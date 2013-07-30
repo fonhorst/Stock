@@ -26,6 +26,23 @@ import com.typesafe.config.ConfigFactory
  * To change this template use File | Settings | File Templates.
  */
 object CoupleActorsExample {
+
+  val proccess_results = (arg:Try[Any]) => {println(Thread currentThread); arg match {
+    case x if x isFailure => {
+      println("Error occured! =( Info:" + (x get))
+    }
+    case x if x isSuccess =>{
+      x get match {
+        case Success(opId,n) => println("Success! Result: " + n)
+        case Fail(opId) => println("Fail! =(")
+      }
+    }
+    case _ => {
+      throw new UnexpectedErrorException
+    }
+  }
+  }
+
   def main(argv:Array[String])={
 
     implicit val timeout = Timeout(10 seconds)
@@ -47,21 +64,7 @@ object CoupleActorsExample {
       system.shutdown()
     }
 
-    val proccess_results = (arg:Try[Any]) => {println(Thread currentThread); arg match {
-        case x if x isFailure => {
-          println("Error occured! =( Info:" + (x get))
-        }
-        case x if x isSuccess =>{
-          x get match {
-            case Success(opId,n) => println("Success! Result: " + n)
-            case Fail(opId) => println("Fail! =(")
-          }
-        }
-        case _ => {
-          throw new UnexpectedErrorException
-        }
-      }
-    }
+
 
 //    calculator calculate 10 onComplete proccess_results
 //    calculator asyncCalculate 11 onComplete proccess_results
