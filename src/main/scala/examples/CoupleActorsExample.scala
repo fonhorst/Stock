@@ -5,18 +5,11 @@ import scala.concurrent.duration._
 import scala.concurrent.Future
 import akka.pattern.ask
 import scala.concurrent.Await
-import examples.Success
-import examples.Fail
-import examples.CalculateTask
-import examples.InitializeB
-import examples.Calculate
 import scala.Some
-import examples.CalculateResult
 import akka.util.Timeout
 import scala.util.Try
 import akka.dispatch.Futures
 import scala.collection.JavaConversions._
-import com.typesafe.config.ConfigFactory
 
 /**
  * Created with IntelliJ IDEA.
@@ -85,6 +78,13 @@ object CoupleActorsExample {
 
 
   }
+}
+
+import akka.actor.IndirectActorProducer
+class DependencyInjectorActorB(val scaleFactor:Int)
+  extends IndirectActorProducer {
+  override def actorClass = classOf[ActorB]
+  override def produce = new ActorB(scaleFactor)
 }
 
 /**
@@ -179,7 +179,8 @@ class ActorA extends Actor{
 
   def receive: Actor.Receive = {
 
-    case InitializeB(name) if actorB == None => actorB = Some[ActorRef](context.actorOf(Props[ActorB],name))
+    case InitializeB(name) if actorB == None => actorB = Some[ActorRef](context.actorOf(Props(classOf[DependencyInjectorActorB], 5),name))
+
 
     case CalculateTask(id,n,false) if actorB != None => {
       val futurier = actorB.get ? calculate(n)
@@ -213,8 +214,7 @@ class ActorA extends Actor{
  * It responds only on Calculate messages,
  * in other cases the message will be dropped
  */
-class ActorB extends Actor{
-  val scaleFactor:Int = 5
+class ActorB(scaleFactor:Int) extends Actor{
 
   def scalize(n:Int) = n*scaleFactor
 

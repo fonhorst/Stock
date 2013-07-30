@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c534dd-3776-494a-935f-abb8d84e6e20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/examples/CoupleActorsExampleIntegrationTest.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/examples/CoupleActorsExample.scala" afterPath="$PROJECT_DIR$/src/main/scala/examples/CoupleActorsExample.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -11,11 +10,11 @@
     <file path="/SBT" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1374848042813" ignored="false" />
     <file path="/plugins.sbt" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1374844882782" ignored="false" />
     <file path="/HelloWorld.scala" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1374848713926" ignored="false" />
-    <file path="/CoupleActorsExample.scala" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375111576584" ignored="false" />
+    <file path="/CoupleActorsExample.scala" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375174962284" ignored="false" />
     <file path="/a.dummy" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375043191331" ignored="false" />
     <file path="/fragment.java" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375100962856" ignored="false" />
     <file path="/CoupleActorsExampleTest.scala" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375108583404" ignored="false" />
-    <file path="/Dummy.txt" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375169204590" ignored="false" />
+    <file path="/Dummy.txt" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375172095402" ignored="false" />
     <file path="/README" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375114120886" ignored="false" />
     <file path="/CoupleActorsExampleIntegrationTest.scala" changelist="75c534dd-3776-494a-935f-abb8d84e6e20" time="1375172010933" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -143,56 +142,48 @@
     <favorites_list name="Stock" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="CoupleActorsExampleIntegrationTest.scala" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/scala/examples/CoupleActorsExampleIntegrationTest.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="64" column="32" selection-start="1736" selection-end="1736" vertical-scroll-proportion="3.9661973">
-                  <folding>
-                    <element signature="e#174#236#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MustVerb.scala" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/org.scalatest/scalatest_2.10/srcs/scalatest_2.10-1.9.1-sources.jar!/org/scalatest/verb/MustVerb.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="188" column="35" selection-start="7541" selection-end="7541" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="CoupleActorsExample.scala" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/examples/CoupleActorsExample.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="77" column="36" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.5042254">
-                  <folding>
-                    <element signature="e#18#37#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DurationConversions.scala" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar!/scala/concurrent/duration/DurationConversions.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="6" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="CoupleActorsExample.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/examples/CoupleActorsExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="37" selection-start="127" selection-end="127" vertical-scroll-proportion="0.30985916">
+              <folding>
+                <element signature="e#2834#3875#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Props.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.0-sources.jar!/akka/actor/Props.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="7" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#12043#12782#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DurationConversions.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar!/scala/concurrent/duration/DurationConversions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="6" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorRefProvider.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.0-sources.jar!/akka/actor/ActorRefProvider.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="95" selection-start="3495" selection-end="3495" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -219,8 +210,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/examples/application.conf" />
         <option value="$PROJECT_DIR$/src/test/scala/examples/CoupleActorsExampleTest.scala" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/main/scala/examples/CoupleActorsExample.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/examples/CoupleActorsExampleIntegrationTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/examples/CoupleActorsExample.scala" />
       </list>
     </option>
   </component>
@@ -325,10 +316,6 @@
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -419,7 +406,7 @@
       <recent name="C:\dir\QTaskWorkspace\Stock\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.CoupleActorsExampleIntegrationTest">
+  <component name="RunManager" selected="Application.CoupleActorsExample">
     <configuration default="false" name="HelloWorld" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="examples.HelloWorld" />
       <option name="VM_PARAMETERS" />
@@ -634,12 +621,16 @@
       <created>1375114170198</created>
       <updated>1375114170198</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Integration Test for CoupleActorsExample">
+      <created>1375172112315</created>
+      <updated>1375172112315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -655,8 +646,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6780239" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27651516" sideWeight="0.9863714" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27651516" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -706,7 +697,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Integration Test for CoupleActorsExample" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -721,6 +712,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Add readme" />
+    <MESSAGE value="Add Integration Test for CoupleActorsExample" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -730,11 +722,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar!/com/typesafe/config/ConfigParseOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar!/com/typesafe/config/impl/SimpleIncluder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="173" column="44" selection-start="6426" selection-end="6426" vertical-scroll-proportion="0.0" />
@@ -780,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.0-sources.jar!/akka/actor/ActorRefProvider.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="6" selection-start="7615" selection-end="7615" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar!/scala/Option.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="299" column="17" selection-start="10636" selection-end="10636" vertical-scroll-proportion="0.0">
@@ -808,6 +788,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/examples/CoupleActorsExampleIntegrationTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="202" selection-end="202" vertical-scroll-proportion="0.33965844">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/org.scalatest/scalatest_2.10/srcs/scalatest_2.10-1.9.1-sources.jar!/org/scalatest/verb/MustVerb.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="35" selection-start="7541" selection-end="7541" vertical-scroll-proportion="0.6478102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar!/scala/concurrent/duration/DurationConversions.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="6" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
@@ -815,27 +809,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/org.scalatest/scalatest_2.10/srcs/scalatest_2.10-1.9.1-sources.jar!/org/scalatest/verb/MustVerb.scala">
+    <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.0-sources.jar!/akka/actor/ActorRefProvider.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="35" selection-start="7541" selection-end="7541" vertical-scroll-proportion="0.0">
+        <state line="111" column="95" selection-start="3495" selection-end="3495" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../CustomUserHome/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.0-sources.jar!/akka/actor/Props.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="7" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#12043#12782#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/examples/CoupleActorsExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="36" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.5042254">
+        <state line="5" column="37" selection-start="127" selection-end="127" vertical-scroll-proportion="0.30985916">
           <folding>
-            <element signature="e#18#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/examples/CoupleActorsExampleIntegrationTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="32" selection-start="1736" selection-end="1736" vertical-scroll-proportion="3.9661973">
-          <folding>
-            <element signature="e#174#236#0" expanded="true" />
+            <element signature="e#2834#3875#0" expanded="false" />
           </folding>
         </state>
       </provider>
